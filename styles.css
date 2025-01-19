@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+
+#nav{
+    background-color: rgba(0, 0, 0, 0.344);
+
+    z-index: 99;
+    position: fixed;
+    
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 65px;
+    padding: 30px;
+    
+}
+#nav  h4{
+   font-weight: bold;
+  text-transform: uppercase;
+}
+#nav img {
+    height: 70px;
+}
+
+video{
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1
+}
+
+
+#main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.344);
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#page1 h1::before{
+  content: "I LOVE HACK CLUB";
+  position: absolute;
+  color: black;
+ z-index: -1;
+  top: -4px;
+  left: -4px;
+  -webkit-text-stroke: 1px rgba(190, 255, 92, 0.708);
+}
+#page1 h1{
+  font-size: 100px;
+  position: relative;
+}
+#page h2{
+  font-weight: 200;
+}
